@@ -1,0 +1,306 @@
+#body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 900px;
+    position: relative;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1.4rem;
+    font-size: 20px;
+    background-color: black;
+    height: 50px;
+    text-decoration:none;
+}
+
+#div-header{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+}
+
+#prvi-a{
+    text-decoration: none;
+}
+
+.main-1{
+    background-color: black;
+    height: 950px;
+    color: white;
+    
+}
+
+#h1-about-page{
+    color: rgb(99, 0, 0);
+    font-size: 96px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    font-weight: 700px;
+    right: 40px;
+    font-family: Cormorant SC;
+font-size: 96px;
+font-weight: 700;
+line-height: 116.26px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.pre-1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Amiri;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 42.19px;
+     text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    top: 100px;
+   margin-left: 100px;
+}
+
+#h1-2{
+    font-family: Amiri;
+font-size: 64px;
+font-weight: 400;
+line-height: 112.51px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+position: relative;
+top: 45px;
+   margin-left: 70px;
+   margin-left: 200px;
+}
+
+#image-1{
+    width: 309px;
+height: 542px;
+position: relative;
+gap: 0px;
+border-radius: 56px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+right: 380px;
+bottom: 80px;
+
+
+}
+
+#div-test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+#hand{
+    position: relative;
+    bottom: 30px;
+    width: 308px;
+    height: 314px;
+ right: 40px;
+}
+
+#h1-3{
+    color: white;
+    font-family: Amiri;
+font-size: 64px;
+font-weight: 400;
+line-height: 112.51px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+#section-1{
+    background-color: rgb(122, 3, 3);
+    height:1200px;
+}
+
+#h1-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 40px;
+    
+}
+
+#h1-3::after
+#h-3::before{
+    display: inline;
+    content: '';
+    position: absolute;
+   
+}
+#h1-3::before {
+    content: "— ";
+    font-size: 200px;
+    color: gray;
+    margin-right: 5px;
+    width: 148px;
+    position: relative;
+    right: 90px;
+    bottom: 10px;
+     gap: 0px;
+     border: 1px 0px 0px 0px;
+     opacity: 0px;
+
+  }
+  
+#h1-3::after {
+    content: " —";
+    font-size: 200px;
+    color: gray;
+    margin-left: 5px;
+    width: 150px;
+    position: relative;
+     gap: 0px;
+     border: 1px 0px 0px 0px;
+     opacity: 0px;
+     bottom: 10px;
+     left: 30px;  
+  }
+
+  #pic-1{
+    position: relative;
+    right: 730px;
+    top: 120px;
+    height: 600px;
+  }
+
+  #pic-back{
+    position: relative;
+    top: 240px;
+    height: 800px;
+    float: left;
+
+  }
+
+  #h1-4{
+    font-family: Amiri;
+     color: white;
+position: relative;
+bottom:  870px;
+left: 760px;
+width: fit-content;
+font-size: 30px;
+  }
+
+  #pic-2{
+    position: relative;
+    bottom: 550px;
+    right: 600px;
+    width: 20%;
+    height: 20%;
+  }
+
+  #h1-5{
+    color: white;
+    font-family: Amiri;
+    position: relative;
+    bottom: 670px;
+    left: 280px;
+    font-size: 30px;
+    width: fit-content;
+    height: 200px;
+  }
+
+  #pic-3{
+    display: flex;
+    justify-content: right;
+    float: right;
+    position: relative;
+    bottom: 1400px;
+    height: 850px;
+    left: cm;
+    width: fit-content;
+  }
+  #h1-6{
+    position: relative;
+    bottom: 30px ;
+    color: white;
+    display: flex;
+    justify-content: right;
+    left: 500px;
+    bottom: 900px;
+    font-family: amiri;
+    font-size: 30px  ;
+  }
+
+  #image-2{
+
+ height: fit-content;
+  }
+  
+  .section-3{
+    background-image:url(https://s3-alpha-sig.figma.com/img/573d/f537/05f704e42d77f3b0f480ee8790203d96?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hHgCwzc~I96ts7hor0UCfM0JWfIRI9ccqXmWQ6pq9QgBf9XDdWDTFYKZkgbqE2N~Dnbrqhppokgx9RYP-HQwNH4a61hdRSic6ae7TCOkw55EpwVFln63GtNqZdy0CvxGZ2Db~8i5qtIYwVDpn6wlFlMvRv5jirfkutgSiUv46Q0C2w8MZrrPjzo8-xMriJgzhhq2PNsJ3DXiOqz5XxD50rUabpsqJA60JYQPIizJfVkBB0LNEhVh11RDGGoxE7G24WQe8Dv1RVU0JFR0B9jefLZiAWQN045RIMb5zvmv7F5A1MKyYfovA-lXlwW7grOfxHQu5o~RYwxzTYgPMu1wVA__);
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover;      /* Makes the image cover the entire section */
+  background-position: center; /*Centers the image in the section */
+  position: relative;
+  top: 0px;
+  height: 110%;
+  right: 1px;
+  margin: 0;
+}
+
+#play-button{
+    position: absolute;
+    font-size: 40px;
+    background-color: rgb(165, 164, 164);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    top: 260%;
+    left: 45%;
+    padding: 34px;
+    border-radius: 100%;
+    color: black;
+}
+
+    
+  #pic-back-2{
+    left: 480px;
+    position: relative;
+    bottom: 80px;
+    transform: rotate(180deg);
+    width: fit-content;
+    height: 700px;
+  }
+
+  footer{
+    position: relative;
+    background-color: black;
+    height: 210px;
+    font-size: 30px;
+    display: flex;
+  }
+
+  #div-footer{
+    position: relative;
+    top:230%;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+  }

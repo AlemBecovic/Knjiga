@@ -1,0 +1,203 @@
+header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1.4rem;
+    font-size: 20px;
+    background-color: black;
+    height: 50px;
+    text-decoration:none;
+    position: relative;
+    
+    
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 900px;
+    position: relative;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#prvi-a{
+    text-decoration: none;
+}
+
+#div-header{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+#image-1{
+    height: 1200px;
+    position: relative;
+    left: 20%;
+}
+
+#Kontakt{
+    position: relative;
+    left: 40%;
+    width: fit-content;
+    bottom: 1000px;
+}
+
+#user{
+    font-size: 70px;
+    position: relative;
+    left: 32%;
+    bottom: 1042px;
+}
+
+#user::after{
+    content: " —";
+    font-size: 220px;
+    color: gray;
+    margin-left: 0px;
+    width: 200px;
+    position: relative;
+     gap: 0px;
+     border: 1px 0px 0px 0px;
+     opacity: 0px;
+     bottom: 60px;
+     left: 70px;  
+     top: 35px;
+     height: 10px;
+     right: 40px;
+}
+
+#ime{
+    font-size: 35px;
+    position: relative;
+    left: 37%;
+    bottom: 850px;
+width: fit-content;
+}
+
+
+#div-icon{
+    position: relative;
+    left: 33%;
+    bottom: 1000px;
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    gap: 1.6rem;
+    width: fit-content;
+}
+
+#div-icon::after{
+    content: " —";
+    font-size: 220px;
+    color: gray;
+    margin-left: 0px;
+    width: 100px;
+    position: relative;
+    bottom: 120px;
+    opacity: 0px;
+     gap: 0px;
+     border: 1px 0px 0px 0px;
+     left: 10px;  
+     height: 0px;
+}
+#h1-spr{
+    position: relative;
+    left: 32%;
+    width: fit-content;
+    bottom: 900px;
+}
+
+#textarea{
+    position: relative;
+    left: 43%;
+    bottom: 930px;text-decoration-line: none;
+}
+
+#section{
+    position: relative;
+    top: 100px;
+}
+
+footer{
+    background-color: black;
+    height: 240px;
+    color: white;
+    display: flex;
+    font-size: 27px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  position: relative;
+bottom: 120px;
+}
+
+#najjaca-braca{
+    font-size: 30px;
+    bottom: 900px;
+    left: 40%;
+    position: relative;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+   
+}
+#button{
+    width: 80px;
+    font-size: 50px;
+    border-radius: 15%;
+background-color: black;
+color: white;
+}
+#button:hover{
+    transform: scale(1.2);
+}
+
+.div-footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 3.7em;
+    flex-direction: row;
+    position: relative;
+    top: 120px;
+    height: fit-content;
+}
+
+#div-icon-2{
+    font-size: 50px;
+    position: relative;
+    height: 10px;
+    right: 1550px;
+    gap: 25rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   text-align:left;
+   top: 120px;
+   color: red;
+}
+
+#div-icon-3{
+    font-size: 50px;
+    position: relative;
+    height: 10px;
+    right: 1180px;
+    gap: 25rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   text-align:left;
+   top: 10px;
+   top: 120px;
+   color: red;
+}
