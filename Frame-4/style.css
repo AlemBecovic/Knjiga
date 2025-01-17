@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     height: 900px;
     position: relative;
-    background: #1B0323;
+    background-color: #300505;
 
 }
 
@@ -85,19 +85,17 @@ header{
           position: relative;
           left: 800px;
           bottom: 120px;
-          size: 30px;
-          height: 500px;
+          size: 20px;
      }
      
      #pre-1{
        display: flex;
        justify-content: center;
        position: relative;
-       bottom: 140px;
+       bottom: 190px;
        font-size: 30px;
-       left: 650px;
+       right: 20px;
        color: white;
-       width: fit-content;
      }
    
      #h1-1{
@@ -105,7 +103,7 @@ header{
        justify-content: center;
        position: relative;
        right: 35px;
-       bottom: 40px;
+       bottom: 140px;
        color: white;
      }
    
@@ -116,14 +114,14 @@ header{
        align-items: center;
        position: relative;
        left: 620px;
-       bottom: 30px;
+       bottom: 120px;
      }
    
      #pre-2{
        position: relative;
-       left: 520px;
+       left: 400px;
        width: fit-content;
-       top: 80px;
+       bottom:60px;
        font-size: 30px;
        color: white;
        height: fit-content;
@@ -143,7 +141,7 @@ header{
      #image-3{
        position: relative;
        left: 1400px;
-       bottom: 190px;
+       bottom: 300px;
        height: fit-content;
        width: fit-content;
      }
@@ -222,4 +220,5 @@ header{
        font-size: 40px;
        color: red;
    }
+
    
